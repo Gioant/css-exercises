@@ -1,0 +1,19 @@
+.p-club:nth-child(odd){
+    background-color: lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#container1{
+    color: blue;
+    font-size: 36px;
+}
+
+.p-club-special{
+font-size: 24px;
+}
+
+#container2{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
