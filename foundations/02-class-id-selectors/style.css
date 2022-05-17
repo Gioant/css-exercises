@@ -1,4 +1,4 @@
-.p-club:nth-child(odd){
+p:nth-child(odd){
     background-color: lightpink;
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
