@@ -18,15 +18,19 @@
   font-weight: bold;
 }
 
-.confirm {
+/* Instead of using class selector of .confirm We can use id selector for confirm btn */
+#confirm-button {
+  /* should be background-color property. Else background: green will never apply*/
   background: green;
   color: white;
   font-weight: bold;
-} 
+  font-size: 20px;
+}  
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+/* replacing .button class selector with id selector*/
+#cancel-button{
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
   font-size: 20px;
 }
 
