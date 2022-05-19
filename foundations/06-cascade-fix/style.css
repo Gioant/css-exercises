@@ -10,10 +10,12 @@
 
 .para.small-para {
   font-size: 14px;
+  font-weight: normal;
 }
 
 .para {
   font-size: 22px;
+  font-weight: bold;
 }
 
 .confirm {
