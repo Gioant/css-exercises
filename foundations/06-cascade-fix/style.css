@@ -34,12 +34,14 @@
   font-size: 20px;
 }
 
-.child {
+/* adding a chaining selector*/
+.text.child {
   color: red;
   font-size: 14px;
 }
 
-div.text {
+/* removing 'div' before .text class selector to apply styling to properties */ 
+.text {
   color: green;
   font-size: 22px;
 }
