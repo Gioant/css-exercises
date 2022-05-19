@@ -1,6 +1,7 @@
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
+  font-weight: normal;
 }
 
 /* Styles were not being applied must use chaining selectors */
@@ -10,12 +11,10 @@
 
 .para.small-para {
   font-size: 14px;
-  font-weight: normal;
 }
 
 .para {
   font-size: 22px;
-  font-weight: bold;
 }
 
 /* Instead of using class selector of .confirm We can use id selector for confirm btn */
