@@ -3,6 +3,11 @@
   color: hsl(0, 100%, 50%);
 }
 
+/* Styles were not being applied must use chaining selectors */
+/* .small-para {
+  font-size: 14px;
+} */
+
 .para.small-para {
   font-size: 14px;
 }
