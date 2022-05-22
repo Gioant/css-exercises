@@ -20,6 +20,14 @@ img {
 
 .picture-box {
   display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 52px;
+  margin-top: 32px;
+}
+
+.pics {
+  width: 200px;
 }
 
 /* do not edit this footer */
