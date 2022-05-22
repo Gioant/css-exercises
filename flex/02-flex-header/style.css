@@ -10,10 +10,12 @@
   justify-content: space-between;
   margin-top: 0.75em;
   margin-left: 0.5em;
+  padding: 8px;
 }
 
 .left-links{
   display: flex;
+  margin-right: 10px;
 }
 
 
@@ -23,6 +25,7 @@
 
 .right-links{
   display: flex;
+  margin-left: 10px;
 }
 
 
