@@ -24,10 +24,9 @@ body {
   font-size: 20px;
 }
 
-#top {
+#box {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .modal {
