@@ -27,6 +27,7 @@ body {
 #top {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .modal {
