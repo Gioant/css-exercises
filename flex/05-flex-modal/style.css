@@ -4,9 +4,6 @@ html, body {
   height: 100%;
 }
 
-*{
-  border: 1px solid red;
-}
 
 body {
   font-family: Roboto, sans-serif;
@@ -21,19 +18,21 @@ body {
 
 .header{
   font-weight: bold;
-  font-size: 20px;
-}
-
-#box {
+  font-size: 18px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
+
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -47,6 +46,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.text {
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .close-button {
