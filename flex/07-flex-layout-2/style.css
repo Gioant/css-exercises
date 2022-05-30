@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -22,15 +27,6 @@ body {
   flex-grow: 1;
 }
 
-.sidebar ul {
-  list-style: none;
-}
-
-.sidebar li a {
-  text-decoration: none;
-  color: white;
-}
-
 .footer {
   display: flex;
   justify-content: center;
@@ -41,9 +37,28 @@ body {
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: 24px;
   width: 300px;
   background: royalblue;
 }
+
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 16px;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: white;
+}
+
 
 .card {
   border: 1px solid #eee;
