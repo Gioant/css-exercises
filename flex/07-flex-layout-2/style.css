@@ -47,18 +47,19 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  padding: 16px;
   font-size: 24px;
   width: 300px;
   background: royalblue;
 }
 
 .sidebar ul {
-  padding: 0;
+  padding: 0px;
   list-style: none;
 }
 
 .sidebar li {
-  padding: 16px;
+  margin-bottom: 16px;
 }
 
 .sidebar li a {
